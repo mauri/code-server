@@ -272,7 +272,7 @@ export function splitOnFirstEquals(str: string): string[] {
   return split
 }
 
-const createDefaultArgs = (): Args => {
+export const createDefaultArgs = (): Args => {
   return {
     _: [],
     workspace: "",
